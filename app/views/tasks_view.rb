@@ -37,7 +37,7 @@ class TasksView < UIView
     self
   end
 
-  def viewForZoomingInScrollView(scroll_view)
+  def viewForZoomingInScrollView(_)
     return @image_view
   end
 end
